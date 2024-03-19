@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = ''#preencha com sua key
+openai.api_key = 'SUA_CHAVE_DE_API_AQUI'
 
 def entrada():
     perguntas = [{"role": "system", "content": "Olá! Estou aqui para te ajudar."
